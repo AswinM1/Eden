@@ -1,5 +1,4 @@
-import React from "react";
-import { Copy } from "lucide-react";
+
 import Button from "./Button";
 import Cube from "./Cube";
 import Liquid from "./Liquid";

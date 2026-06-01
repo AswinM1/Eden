@@ -1,9 +1,8 @@
-import React, { useRef } from 'react'
-import {motion, useMotionTemplate, useMotionValue, useTransform} from 'motion/react'
+
+import {motion} from 'motion/react'
 
 function Liquid() {
     
- const arr=["clipPath: polygon(1% 57%, 7% 54%, 12% 49%, 17% 46%, 27% 43%, 40% 55%, 50% 57%, 55% 48%, 60% 43%, 68% 41%, 76% 47%, 80% 49%, 85% 54%, 92% 56%, 97% 56%, 98% 59%, 100% 100%, 1% 100%)"]
 
   return (
     <div className='flex  w-full justify-center'>

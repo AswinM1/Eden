@@ -1,5 +1,5 @@
-import React from "react";
-import { motion } from "framer-motion";
+
+import { motion } from "motion/react";
 
 function Card() {
   return (
@@ -7,7 +7,6 @@ function Card() {
 
       <div className="relative w-52 h-52 rounded-[28px] overflow-hidden bg-neutral-300 border border-neutral-400 shadow-2xl">
 
-        {/* animated liquid */}
         <motion.div
           animate={{
              clipPath: [

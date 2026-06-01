@@ -1,13 +1,13 @@
-"use client";
 
-import React, { useEffect, useRef } from "react";
+
+import { useEffect, useRef } from "react";
 
 function Searchbar() {
   const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-        
+
       const active = document.activeElement;
 
       if (
